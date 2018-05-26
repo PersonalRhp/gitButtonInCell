@@ -15,6 +15,9 @@
 		A53060ED20B90E5900DD2E3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A53060EC20B90E5900DD2E3D /* main.m */; };
 		A53060F720B90E5900DD2E3D /* getButtonIncellDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A53060F620B90E5900DD2E3D /* getButtonIncellDemoTests.m */; };
 		A530610220B90E5900DD2E3D /* getButtonIncellDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A530610120B90E5900DD2E3D /* getButtonIncellDemoUITests.m */; };
+		A530611120B9113F00DD2E3D /* ATableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A530611020B9113F00DD2E3D /* ATableViewCell.m */; };
+		A530611720B91F1100DD2E3D /* ATableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A530611620B91F1000DD2E3D /* ATableViewCell.xib */; };
+		A530611A20B9249800DD2E3D /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A530611920B9249800DD2E3D /* BViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		A53060FD20B90E5900DD2E3D /* getButtonIncellDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getButtonIncellDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A530610120B90E5900DD2E3D /* getButtonIncellDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = getButtonIncellDemoUITests.m; sourceTree = "<group>"; };
 		A530610320B90E5900DD2E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A530610F20B9113F00DD2E3D /* ATableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATableViewCell.h; sourceTree = "<group>"; };
+		A530611020B9113F00DD2E3D /* ATableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATableViewCell.m; sourceTree = "<group>"; };
+		A530611620B91F1000DD2E3D /* ATableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ATableViewCell.xib; sourceTree = "<group>"; };
+		A530611820B9249800DD2E3D /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		A530611920B9249800DD2E3D /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +111,13 @@
 			children = (
 				A53060DD20B90E5800DD2E3D /* AppDelegate.h */,
 				A53060DE20B90E5900DD2E3D /* AppDelegate.m */,
+				A530611820B9249800DD2E3D /* BViewController.h */,
+				A530611920B9249800DD2E3D /* BViewController.m */,
 				A53060E020B90E5900DD2E3D /* ViewController.h */,
 				A53060E120B90E5900DD2E3D /* ViewController.m */,
+				A530610F20B9113F00DD2E3D /* ATableViewCell.h */,
+				A530611020B9113F00DD2E3D /* ATableViewCell.m */,
+				A530611620B91F1000DD2E3D /* ATableViewCell.xib */,
 				A53060E320B90E5900DD2E3D /* Main.storyboard */,
 				A53060E620B90E5900DD2E3D /* Assets.xcassets */,
 				A53060E820B90E5900DD2E3D /* LaunchScreen.storyboard */,
@@ -238,6 +251,7 @@
 				A53060EA20B90E5900DD2E3D /* LaunchScreen.storyboard in Resources */,
 				A53060E720B90E5900DD2E3D /* Assets.xcassets in Resources */,
 				A53060E520B90E5900DD2E3D /* Main.storyboard in Resources */,
+				A530611720B91F1100DD2E3D /* ATableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +279,8 @@
 				A53060E220B90E5900DD2E3D /* ViewController.m in Sources */,
 				A53060ED20B90E5900DD2E3D /* main.m in Sources */,
 				A53060DF20B90E5900DD2E3D /* AppDelegate.m in Sources */,
+				A530611A20B9249800DD2E3D /* BViewController.m in Sources */,
+				A530611120B9113F00DD2E3D /* ATableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

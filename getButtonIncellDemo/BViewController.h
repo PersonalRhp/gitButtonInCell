@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BViewController.h
 //  getButtonIncellDemo
 //
 //  Created by Xiaoyi Tian on 2018/5/26.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
-
-
+@interface BViewController : UIViewController
+@property(nonatomic,strong)NSString *str;
 @end
-
